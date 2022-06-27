@@ -6,44 +6,18 @@ As we grow and look to expand operations, we need to find where out best course 
 
 ## Overview of the Results
 
-We are going to show our current statistics and summary information to best reflect where our expansion efforts should be focused.
-
-* *Current*
-
 <img src= "https://github.com/Atros04/Pyber-Visualization/blob/main/Analysis/Fig5.png" width=400px><img src= "https://github.com/Atros04/Pyber-Visualization/blob/main/Analysis/Fig6.png" width=400px><img src= "https://github.com/Atros04/Pyber-Visualization/blob/main/Analysis/Fig7.png" width=400px>
 
-Over 60% of our current distribution of drivers and riders are in urban areas. While the other 40% are taken up by suburban and rural areas respectively. 
+Over 60% of our current distribution of riders and over 80% of our drivers are in urban areas. While the other 40% of riders and 20% of drivers are taken up by suburban and rural areas. Additionally, we see that our rural distribution of riders and drivers never goes above 10% despite those areas making the most money. 
 
-<img arc= "https://github.com/Atros04/Pyber-Visualization/blob/main/Analysis/pyber_summary.PNG">
+<img src= "https://github.com/Atros04/Pyber-Visualization/blob/main/Analysis/pyber_summary.PNG">
 
-We currently have more drivers than rides taken in those urban areas at a rate of .67 rides per driver. While in suburban and rural areas, we have 1.27 and 1.60 riders per driver respectively.
+That being said, we currently have more drivers than rides taken in those urban areas at a rate of .67 rides per driver. While in suburban and rural areas, we have 1.27 and 1.60 riders per driver respectively. Our suburban and rural drivers make, on average, $20 more than their urban counterparts while only driving 2.7 to 13 times less. 
 
+<img src= "https://github.com/Atros04/Pyber-Visualization/blob/main/Analysis/PyBer_fare_summary.png" width=800px>
 
-
-* *School Summary*
-![Summary](Analysis/school_summary.PNG)
-
-Thomas High School's average math and reading scores went down by .06% and up by .05% respectively. The percentage of students that passed the test also went down. The percentage that passed the math test was .09% less, the percetage that passed the reading was .29% less, and the percentage that passed both was .31% less.
-
-* *Thomas High's Performance*
-![Summary](Analysis/top_5.PNG)
-
-Thomas High School did not change position in the top schools of the district. They retained their top 2 ranking among overall passing students despite the .31% dip.
-
-* *Corrected Data*
-
-Considering we had to replace the data from the ninth graders of Thomas High School, we did not see any of our original metrics change.
-
-<img src = "https://github.com/Atros04/PySchool/blob/main/Analysis/math_reading_by_grade.PNG" height=350px>
-
-![Summary](Analysis/scores_by_spending.PNG)
-
-![Summary](Analysis/scores_by_size.PNG)
-
-![Summary](Analysis/scores_by_type.PNG)
-
-The main reason for this is the 9th grade class only account for 461 scores, the majority of which were within the average already seen from the previous analysis. We are aslo grouping everyone in for these scores and 461 becomes less significant on the data as we expand our grouping.
+We do see some trends over the first months of 2019 where fares were affected by what we can assume to be weather patterns in the areas of our service. We do have a lot of missing info here to make the best decisions, but we can assume based on the months of service and seasons therein.
 
 ## Results
 
-Thomas High Schools still remains one of the top performing schools in the district despite the couple tenths of a percentage drop the school suffered from omitting the altered grades. While we did see a drop of average math and reading scores, the school still boasts the 6th best math scores and 5th best reading scores. The school also meets all the metrics set by schools of their type, meaning they meet at least the averages of all charter schools in the district. Where the school really shines are the averages per capata. They are performing way above the average per capata in score, but in students that passed, we see values from 13 to almost 30% higher than other schools that spend the same amount per student. Thomas High School does not need any changes to their budget for this coming fiscal year.
+Pyber is operating well for 2019. We had lots of usage throughout, but we were weak in the suburban and rural areas. This coming year is going to see some necessary changes in those areas. Our riders and drivers need to be marketed to in the rural regions especially as the lack of public transportation is felt across those regions. We should look to making the rural areas more readily availble with drivers especially in regional and cross-regional traffic. For example, drivers being able to take riders from one small rural region to another. Secondly, we need to look at limiting the new drivers for urban regions. at .67 rides per driver, competition is going to choke out new drivers looking to get into driving for us. Finally, we should look to bolstering our reach to suburban areas. We made twice as much money with 250% less rides than urban areas.
